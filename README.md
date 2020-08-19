@@ -1,8 +1,8 @@
-#Utils for JS
+# Utils for JS
 
 this is a package containing utilities for js
 
-##features
+## features
 
 	1. Boolean logic support
 	2. Prototypical inheritance
@@ -11,13 +11,13 @@ this is a package containing utilities for js
 	5. Combinatory logic support
 	6. Ternary operator replacement
 
-##usage
+## usage
 
      var utils = require("function-js-utils")
      var bool = utils.xor(utils.TRUE)(utils.FALSE)
      console.log(utils.ifelse(bool,"bool is true","bool is false"))
 
-##api
+## api
 
     isComputerOn()		returns true if computer is on , otherwize false
     ObjectInherit(x)	creates new object inheriting propertys for argument
