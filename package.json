@@ -1,0 +1,22 @@
+{
+  "name": "function-js-utils",
+  "version": "1.2.1",
+  "description": "utils for js",
+  "main": "util.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "js",
+    "utils",
+    "computer",
+    "logic",
+    "functional",
+    "boolen",
+    "empty",
+    "stack",
+    "inheritance"
+  ],
+  "author": "MZ",
+  "license": "LGPL-3.0-or-later"
+}
