@@ -35,9 +35,14 @@ exports.and = (x) => (y) => x(y)(Lfalse)
 exports.not = (x) => (y) => y(Lfalse)(Ltrue)
 exports.xor = (x) => (y) => x(y(Lfalse)(Ltrue))(y)||Lfalse
 
-exports.ifelse = (b,ifTrue,ifFalse) => b(ifTrue)(ifFalse)
+exports.ifelse = (b,ifTrue,ifFalse) => b(ifTrue)(ifFalse);
 
-exports.boolTofun = (x) => x?Ltrue:Lfase
+exports.boolTofun = function (x) {
+	if (typeof(x) == 'boolean')
+		x?Ltrue:Lfase;
+	else
+		throw "boolTofun need boolean";
+};
 
 exports.funToBool = (x) => exports.ifelse(x,true,false)
 
