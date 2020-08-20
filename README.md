@@ -10,6 +10,7 @@ this is a package containing utilities for js
 	4. Stacks
 	5. Combinatory logic support
 	6. Ternary operator replacement
+	7. Last Opened Lists
 
 ## usage
 
@@ -50,3 +51,5 @@ this is a package containing utilities for js
     isNumber(x)			checks if x is number
     isEven(c)			checks if c is even
     isOdd(c)			checks if c is odd
+
+    curry(func,data)(arg)	calls func(data[0] , data[1] ... , data[n], arg)

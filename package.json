@@ -1,6 +1,6 @@
 {
   "name": "function-js-utils",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "utils for js",
   "main": "util.js",
   "scripts": {

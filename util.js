@@ -49,7 +49,7 @@ exports.boolToString = (x) => x("true")("false");
 exports.or = (x) => (y) => x(Ltrue)(y)
 exports.and = (x) => (y) => x(y)(Lfalse)
 exports.not = (x) => (y) => y(Lfalse)(Ltrue)
-exports.xor = (x) => (y) => x(y(Lfalse)(Ltrue))(y)||Lfalse
+exports.xor = (x) => (y) => or(and(x,not(y)),and(not(x),y))
 
 exports.ifElse = exports.I;
 
@@ -67,3 +67,5 @@ exports.isNumber = c => (typeof(c)=="number" && c == c && isFinite(c))
 exports.isEven = (x) => exports.isNumber(x) && !(~~x >> 0 & 1)
 
 exports.isOdd = (x) => exports.isNumber(x) && !!(~~x >> 0 & 1)
+
+exports.curry = (func,data) => (x) => func.apply(null,data.concat([x])) 
