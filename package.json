@@ -1,5 +1,5 @@
 {
-  "name": "boolean-js",
+  "name": "@voidpointer/boolean-js",
   "version": "3.0.1",
   "description": "boolean utils for js",
   "main": "bool.js",
