@@ -1,27 +1,24 @@
 {
-  "name": "function-js-utils",
+  "name": "bool",
   "version": "3.0.1",
-  "description": "utils for js",
-  "main": "util.js",
+  "description": "boolean utils for js",
+  "main": "bool.js",
   "scripts": {
     "test": "test"
   },
   "keywords": [
     "js",
     "utils",
-    "computer",
+    "bool",
     "logic",
+    "boolean",
     "functional",
-    "boolen",
-    "empty",
-    "stack",
-    "inheritance"
   ],
   "author": "MZ",
-  "license": "LGPL-3.0-or-later",
-  "homepage": "https://github.com/10maurycy10/function-js-utils/blob/master/README.md",
+  "license": "MIT",
+  "homepage": "https://github.com/10maurycy10/bool/blob/master/README.md",
   "repository": {
     "type" : "git",
-    "url" : "https://github.com/10maurycy10/function-js-utils/blob/master/README.md"
+    "url" : "https://github.com/10maurycy10/bool.git"
   }
 }
