@@ -10,7 +10,7 @@ this is a package containing utilities for boolean types
 	
 ## usage
 
-     var bool = require("@voidpointer/boolean-js")
+     var bool = require("boolean-for-js")
      var b = utils.xor(utils.true)(utils.false)
      console.log(utils.ternary(b,"b is true","b is false"))
 
