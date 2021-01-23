@@ -7,12 +7,6 @@ this is a package containing utilities for boolean types
 	1. suport for external bools
 	2. or, and, not, xor
 	3. Ternary operator
-	
-## usage
-
-     var bool = require("boolean-for-js")
-     var b = utils.xor(utils.true)(utils.false)
-     console.log(utils.ternary(b,"b is true","b is false"))
 
 ## api
 
